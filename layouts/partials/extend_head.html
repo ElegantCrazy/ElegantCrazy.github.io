@@ -1,0 +1,13 @@
+{{- /* Head custom content area start */ -}}
+{{- /*     Insert any custom code (web-analytics, resources, etc.) - it will appear in the <head></head> section of every page. */ -}}
+{{- /*     Can be overwritten by partial with the same name in the global layouts. */ -}}
+<!-- busuanzi -->
+{{- if site.Params.busuanzi.enable -}}
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{{- end -}}
+<!-- waline -->
+<link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+/>
+{{- /* Head custom content area end */ -}}

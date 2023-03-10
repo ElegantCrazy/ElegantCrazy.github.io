@@ -1,0 +1,12 @@
+{{- /* Comments area start */ -}}
+{{- /* to add comments read => https://gohugo.io/content-management/comments/ */ -}}
+<div id="waline"></div>
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+  init({
+    el: '#waline',
+    serverURL: 'https://waline-ashen-one.vercel.app',
+  });
+</script>
+{{- /* Comments area end */ -}}
