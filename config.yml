@@ -10,7 +10,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: G-Y74YH2FERV
+# googleAnalytics: G-Y74YH2FERV
 
 minify:
   disableXML: true
