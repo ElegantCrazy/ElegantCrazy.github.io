@@ -28,6 +28,9 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
+  busuanzi:
+    enable: true
+
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true
