@@ -32,7 +32,7 @@ params:
     enable: true
 
   ShowReadingTime: true
-  ShowShareButtons: false
+  ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -47,7 +47,7 @@ params:
   showtoc: true
   tocopen: false
 
-  assets:
+  # assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     # favicon: "<link / abs url>"
@@ -94,6 +94,11 @@ params:
     #   SiteVerificationTag: "XYZabc"
     # yandex:
     #   SiteVerificationTag: "XYZabc"
+
+  editPost:
+    URL: "https://github.com/ElegantCrazy/ElegantCrazy.github.io/blob/main/content"
+    Text: "提交修改建议" # edit text
+    appendFilePath: true # to append file path to Edit link
 
   cover:
     hidden: true # hide everywhere but not in structured data
