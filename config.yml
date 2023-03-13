@@ -78,7 +78,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "ElegantCrazy"
+    Title: "ElegantCrazy's blog"
     Content: Always be a learner
 
   socialIcons:
